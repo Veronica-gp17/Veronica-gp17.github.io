@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+.main-rol-registro {
+    display: grid;
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    background: linear-gradient(207.8deg, #AED6F1  16.69%, #85929E 100%);
+    justify-items: center;
+}
+h1 {
+    color: #1A5276;
+    margin: 20px;
+
+}
+.buttom {
+    width: 250px;
+    height: 70px;
+    margin: 15px;
+}
+.boton1, .boton2, .boton3, .boton4 {
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #5499C7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    color: #EBF5FB;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleclientes.css">
+    <link rel="stylesheet" href="./Clientes.php">
+    <script src="boton.js"></script>
+</head>
+<body>
+<main class="main-form-container">
+        <form method="POST" action = "Clientes.php">
+            <h2 class="form-client--title">REGISTRO CLIENTE EMPRESA</h2>
+            <h3 class="form-client--subtitle"><p>TODOS LOS CAMPOS CON * SON OBLIGATORIOS</p></h3>
+               <div class="form-box">
+               <label for="Nombre Empresa">Nombre Empresa*</label>
+                <input type="text" id="Nombre Empresa" name="NombreEmpresa" required><br>
+            </div>
+            <div class="form-box">
+            <label for="NIT">NIT*</label><br>
+                <input type="text" id="NIT" name="c" required>
+           </div>
+           <div class="form-box">
+            <label for="Razon Social">Razon Social*</label><br>
+                <input type="text" id="Razon Social" name="RazonSocial" required>
+           </div>
+           <div class="form-box">
+            <label for="Número Telefonico">Número Telefonico</label><br>
+                <input type="text" id="NúmeroTelefonico" name="NúmeroTelefonico" required>
+           </div>
+           <div class="form-box">
+            <label for="Correo electronico">Correo electronico*</label><br>
+                <input type="email" id="Correo electronico" name="CorreoElectronico" required>
+           </div>
+           <div class="form-box">
+            <label for="Vehiculo que solicita">Vehiculo que maneja*</label><br>
+                <input type="text" id="Vehiculo que solicita" name="VehiculoQueSolicita" required>
+           </div>
+           <div class="form-box">
+            <label for="Motivo">Motivo*</label><br>
+                <input type="text" id="Motivo" name="Motivo" required>
+           </div>
+           <div>
+            <input class="send-button" type="submit" value="ENVIAR" name= "ENVIAR">
+        </div>
+</body>
+</html>
