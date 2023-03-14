@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #EBF5FB;
+}
+.main-title {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(207207.8deg, #BDC9D1 16.69%, #B4D0E4 100%);
+    align-items: center;
+    padding-top: 70px;
+}
+h1 {
+    font-size: 3.5rem;
+    color: #2980B9;
+    margin: 0 auto;
+    text-align: center;
+}
+h3 {
+    font-size: 2.7rem;;
+    margin: 30px;
+    justify-self: flex-start;
+    color: #2980B9;
+}
+.cards-container1 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    padding: 15px;
+    gap: 25px;
+}
+.truck-card {
+    width: 270px;
+}
+.truck-card img {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.truck-info {
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.truck-info figure {
+    margin: 0;
+}
+.truck-info figure img {
+    width: 35px;
+    height: 20px;
+    object-fit: cover;
+    background-color: transparent;
+}
+.truck-info p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #909497;
+}
+.arrow-instructions {
+    font-size: 1.3rem;
+    color:#2980B9;
+    margin: 20px 40px;
+}
+.cards-container2 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    padding: 15px;
+    gap: 25px;
+}
+.truck-card {
+    width: 270px;
+}
+.truck-card2 img {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+.cards-container3 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    padding: 15px;
+    gap: 25px;
+}
+.truck-card3 img {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+.cards-container4 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    padding: 15px;
+    gap: 25px;
+}
+.truck-card4 img {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+}

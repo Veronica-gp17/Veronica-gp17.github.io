@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     min-width: 324px;
+     height: 375px;
+     text-align: center;
+     background: linear-gradient(207.8deg, #AED6F1 16.69%, #85929E 100%);
+}
+header img {
+    width: 200px;
+    height: 290px;
+    margin-top: 60px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
+}
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-self: center;
+}
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #212F3C;
+}
+.header--title-container p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: #212F3C;
+}
+.header--title-container .header__button a {
+    position: absolute;
+    left: calc(50% - 110px);
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229;
+    height: 48px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background-color: #AED6F1;
+    border: 1px solid #5D6D7E;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #212F3C;
+}
+.main--login-container {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    width: 90%;
+    height: 500px;
+    padding-top: 130px;
+    margin: 0 auto;
+    background-color: #EBF5FB;
+    justify-items: center;
+}
+.boton1, .boton2 {
+    padding: 15px;
+    width: 250px;
+    height: 60px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background-color: #5499C7;
+    border: 1px solid #5D6D7E;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #212F3C;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
